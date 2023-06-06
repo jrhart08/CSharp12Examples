@@ -1,7 +1,4 @@
-﻿
-using System.Linq.Expressions;
-
-namespace Lambdas.ConsoleApp;
+﻿namespace Lambdas.ConsoleApp;
 
 public class LambdaDemo
 {
