@@ -24,16 +24,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30781c23-3fc3-469b-bc83-904db24447ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WeatherApp.Data/MyDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeatherApp.Domain/Features/SendExtremeWeatherAlert/SendExtremeWeatherAlertRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeatherApp.Domain/Features/SendExtremeWeatherAlert/SendExtremeWeatherAlertRequestHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharp12Examples/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharp12Examples/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharp12Examples.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CSharp12Examples.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.Domain/WeatherApp.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Domain/WeatherApp.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.SMS/ISmsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.SMS/ISmsService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.SMS/SmsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.SMS/SmsService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.WebApi/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.WebApi/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp.WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.WebApi/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherApp.Data/MyDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Data/MyDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherApp.Domain/Features/SendExtremeWeatherAlert/SendExtremeWeatherAlertRequestHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherApp.Domain/Features/SendExtremeWeatherAlert/SendExtremeWeatherAlertRequestHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherApp.WebApi/WeatherForecast.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -343,7 +336,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686018492420</updated>
-      <workItem from="1686018493561" duration="7497000" />
+      <workItem from="1686018493561" duration="7891000" />
     </task>
     <servers />
   </component>

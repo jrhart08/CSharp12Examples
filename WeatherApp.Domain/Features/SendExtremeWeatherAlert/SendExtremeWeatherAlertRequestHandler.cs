@@ -4,7 +4,7 @@ using WeatherApp.SMS;
 
 namespace WeatherApp.Domain.Features.SendExtremeWeatherAlert;
 
-public class SendExtremeWeatherAlertRequestHandler(
+public sealed class SendExtremeWeatherAlertRequestHandler(
     MyDbContext _context,
     ISmsService _sms
 ) : IRequestHandler<SendExtremeWeatherAlertRequest, SendExtremeWeatherAlertResponse>

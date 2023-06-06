@@ -20,7 +20,7 @@ public class SupportedArea
     public virtual ICollection<Subscriber> Subscribers { get; set; }
 }
 
-public class MyDbContext
+public sealed class MyDbContext
 {
     public IQueryable<Subscriber> Subscribers { get; set; } = Array.Empty<Subscriber>().AsQueryable();
     public IQueryable<SupportedArea> SupportedAreas { get; set; } = Array.Empty<SupportedArea>().AsQueryable();
