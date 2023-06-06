@@ -4,11 +4,20 @@ using WeatherApp.SMS;
 
 namespace WeatherApp.Domain.Features.SendExtremeWeatherAlert;
 
-public sealed class SendExtremeWeatherAlertRequestHandler(
-    MyDbContext _context,
-    ISmsService _sms
-) : IRequestHandler<SendExtremeWeatherAlertRequest, SendExtremeWeatherAlertResponse>
+public sealed class SendExtremeWeatherAlertRequestHandler : IRequestHandler<SendExtremeWeatherAlertRequest, SendExtremeWeatherAlertResponse>
 {
+    readonly MyDbContext _context;
+    readonly ISmsService _sms;
+
+    public SendExtremeWeatherAlertRequestHandler(
+        MyDbContext context,
+        ISmsService sms
+    )
+    {
+        _context = context;
+        _sms = sms;
+    }
+
     public async Task<SendExtremeWeatherAlertResponse> Handle(SendExtremeWeatherAlertRequest request, CancellationToken cancellationToken)
     {
         var (zipCodes, alertMessage) = request;

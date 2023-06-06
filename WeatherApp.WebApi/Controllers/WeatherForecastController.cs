@@ -7,11 +7,20 @@ namespace WeatherApp.WebApi.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class WeatherForecastController(
-    IMediator _mediator,
-    ILogger<WeatherForecastController> _logger
-) : ControllerBase
+public class WeatherForecastController : ControllerBase
 {
+    readonly IMediator _mediator;
+    readonly ILogger<WeatherForecastController> _logger;
+
+    public WeatherForecastController(
+        IMediator mediator,
+        ILogger<WeatherForecastController> logger
+    )
+    {
+        _mediator = mediator;
+        _logger = logger;
+    }
+
     [HttpGet(Name = "GetWeatherForecast")]
     public async Task<GetWeatherForecastResponse> Get()
     {
