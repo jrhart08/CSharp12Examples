@@ -11,8 +11,10 @@ Console.WriteLine("\n-- GENERICS - Long type names --");
 
 var terseDemo = new GenericsDemo_LongClassNames();
 DemoGetAll();
-DemoGetById(15);
+Console.WriteLine();
+DemoGetById(14);
 DemoGetById(9001);
+Console.WriteLine();
 DemoTryAdd("Donald", "Duck");
 DemoTryAdd("Captain", "America");
 
