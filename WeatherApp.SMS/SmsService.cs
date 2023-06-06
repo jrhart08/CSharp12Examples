@@ -6,4 +6,9 @@ public class SmsService : ISmsService
     {
         Console.WriteLine($"Sending message to recipients");
     }
+
+    public async Task SendAlert(string message, IEnumerable<string> phoneNumbers)
+    {
+        Console.WriteLine($"Sending alert to recipients");
+    }
 }

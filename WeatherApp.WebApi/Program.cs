@@ -1,3 +1,4 @@
+using CommonDependencies;
 using WeatherApp.Domain;
 using WeatherApp.SMS;
 
@@ -10,6 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddTransient<MyDbContext>();
 builder.Services.AddTransient<ISmsService, SmsService>();
 builder.Services.AddMediatR(config =>
 {
