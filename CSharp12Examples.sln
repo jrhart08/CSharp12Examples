@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_TypeAliases", "01_TypeAliases", "{8D98D265-A799-4A98-A8F7-80B69D26D544}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_TypeAliases", "02_TypeAliases", "{8D98D265-A799-4A98-A8F7-80B69D26D544}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Lambdas", "02_Lambdas", "{9B874DC3-3E30-45C0-BDA7-A9350F20831B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Lambdas", "01_Lambdas", "{9B874DC3-3E30-45C0-BDA7-A9350F20831B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_PrimaryConstructors", "03_PrimaryConstructors", "{30171EB7-0A25-4235-A8F1-251673A87581}"
 EndProject
